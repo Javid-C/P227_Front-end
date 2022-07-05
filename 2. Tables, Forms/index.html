@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables, Forms</title>
+</head>
+
+<body>
+
+    <!-- <table border="5" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th colspan="2">
+                    Fullname
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    Gender
+                </th>
+                <th>
+                    Group
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Ali
+                </td>
+                <td>
+                    Salehov
+                </td>
+                <td>
+                    19
+                </td>
+                <td>
+                    Male
+                </td>
+                <td rowspan="4">
+                    P227
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rafat
+                </td>
+                <td>
+                    Mammadov
+                </td>
+                <td>
+                    23
+                </td>
+                <td>
+                    Male
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Xeyal
+                </td>
+                <td>
+                    Mammadzade
+                </td>
+                <td>
+                    25
+                </td>
+                <td>
+                    Male
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Kamala
+                </td>
+                <td>
+                    Jamalova
+                </td>
+                <td>
+                    21
+                </td>
+                <td>
+                    Female
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Gunel
+                </td>
+                <td>
+                    Ahmadova
+                </td>
+                <td>
+                    29
+                </td>
+                <td>
+                    Female
+                </td>
+                <td rowspan="2">
+                    P228
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ali
+                </td>
+                <td>
+                    Nasrullayev
+                </td>
+                <td>
+                    24
+                </td>
+                <td>
+                    Male
+                </td>
+
+            </tr>
+        </tbody>
+    </table> -->
+
+    <form method="get" autocomplete="off" novalidate>
+        <!-- id - identifier -->
+        <!-- class - Qruplashdirmaq ucundur -->
+        <div>
+            <label for="firstname">Firstname*</label><br>
+            <input type="text" size="100" name="fn" id="firstname" autofocus required
+                placeholder="Please type your firstname">
+        </div>
+        <div>
+            <label for="surname">Surname</label><br>
+            <input type="text" name="sr" autocomplete="on" id="surname" required placeholder="Please type your surname">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <!-- disabled attribute  -->
+            <input type="email" name="e" value="javid@code.az" readonly required id="email">
+        </div>
+        <div>
+            <label for="pw">Password</label><br>
+            <input type="password" minlength="8" id="pw" required placeholder="Please type your password">
+        </div>
+        <div>
+            <label for="cpw">Confirm password</label><br>
+            <input type="password" id="cpw" minlength="8" required placeholder="Please confirm your password">
+        </div>
+        <div>
+            <h4>Please choose your hobbies:</h4>
+            <input type="checkbox" id="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" name="movie" id="movie">
+            <label for="movie">Movie</label><br>
+            <input type="checkbox" id="jogging">
+            <label for="jogging">Jogging</label><br>
+        </div>
+        <div>
+            <h4>
+                Please choose your gender
+            </h4>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <label for="count">Please choose count</label><br>
+            <input type="number" min="0" max="300" step="20" id="count">
+        </div>
+        <div>
+            <label for="range">Please choose your price range</label><br>
+            <input type="range" min="0" max="200" id="range">
+        </div>
+        <div>
+            <input type="reset">
+        </div>
+        <div>
+            <label for="">Search</label><br>
+            <input type="search">
+        </div>
+        <div>
+            <label for="phone">Please type your phone number</label><br>
+            <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="000-00-00">
+        </div>
+        <div>
+            <input type="color">
+        </div>
+        <div>
+            <input type="datetime-local">
+            <input type="date">
+            <input type="time">
+            <input type="week">
+            <input type="month">
+
+        </div>
+        <div>
+            <input type="url">
+        </div>
+        <div>
+            <label for="file">Please choose file</label><br>
+            <input type="file" multiple accept="image/jpeg" id="file">
+        </div>
+        <div>
+            <!-- <label for="">Hidden input</label> -->
+            <input type="hidden">
+        </div>
+
+        <div>
+            <input type="search" list="items">
+            <datalist id="items">
+                <option value="Computer"></option>
+                <option value="Phone"></option>
+                <option value="Remote controller"></option>
+                <option value="Air conditioner"></option>
+            </datalist>
+        </div>
+        <div style="margin-top:10px">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
