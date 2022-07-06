@@ -1,0 +1,38 @@
+/* HEX
+    example #000000
+    length- 3 ve ya 6
+    [0-9]
+    a-f
+*/
+
+/* 
+    RGB - red green blue
+    0-255
+*/
+body{
+    height: 500vh;
+}
+
+.hex{
+    color: #ffff00;
+}
+
+.rgb{
+    background-color: black;
+    color: rgba(37, 179, 255,1);
+}
+
+.background{
+    padding: 30px;
+    width: 100%;
+    height: 600px;
+    border: 7px black dashed;
+    /* background-image: url(../images/sunset.jpg);
+    background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    /* background-origin: padding-box; */
+    background-color: aqua;
+    background-clip: content-box;
+}

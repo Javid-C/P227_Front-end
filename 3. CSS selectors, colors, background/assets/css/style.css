@@ -1,0 +1,75 @@
+/* p{
+    color: red;
+}
+
+.title{
+    color: teal;
+}
+
+.title.info{
+    color: violet;
+}
+
+.wrapper .title{
+    color: aqua;
+}
+
+.test .desc{
+    color: brown;
+}
+
+#image .hero{
+    font-size: 50px;
+} */
+
+/* *{
+    color: blue;
+} */
+
+/* .items.payment *{
+    color: blue;
+} */
+/* 
+.text{
+    color: red;
+} */
+
+/* p.text{
+    color: blue;
+} */
+
+
+/* ol,p,.text{
+    color: blueviolet;
+} */
+
+/* .wrapper>.title{
+    color: red;
+}
+
+.immediately+.next{
+    color: aqua;
+}
+
+
+p[class="text"]{
+    color: green;
+} */
+
+p:first-child{
+    color: darkcyan;
+}
+
+span:first-of-type{
+    color: red;
+}
+
+[type="button"]{
+    background-color: blue;
+}
+
+[type="button"]:hover{
+    background-color: red;
+    color: white;
+    width: 200px;
+}
