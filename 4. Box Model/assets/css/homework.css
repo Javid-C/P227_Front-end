@@ -1,0 +1,27 @@
+#responsive{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#responsive tr th{
+    color: white;
+}
+
+#responsive tr th:nth-child(odd){
+    background-color: #130261;
+}
+
+#responsive tr th:nth-child(even){
+    background-color: #2fa87c;
+}
+
+#responsive tbody tr:nth-child(odd){
+    background-color: white;
+}
+
+
+#responsive tbody tr:nth-child(even){
+    background-color: rgb(211, 211, 211);
+}

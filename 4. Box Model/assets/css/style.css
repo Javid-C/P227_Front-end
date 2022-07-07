@@ -1,0 +1,157 @@
+
+/* Specify */
+/* *{
+    color: brown;
+}
+
+gold, silver, bronze
+#paragraph{
+    color: teal;
+}
+p{
+    color: red;
+}
+.paragraph{
+    color: blue;
+}
+
+#info{
+    background-color: greenyellow;
+    color: red;
+}
+
+.wrapper .title .info{
+    background-color: red;
+}
+
+.info{
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+}
+
+.title .info{
+    background-color: blue;
+}
+
+#title #info{
+    background-color: green;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+    overflow: scroll;
+}
+.box{
+    /* width: 200px;
+    height: 300px; */
+    width: 100vw;
+    height: 100px;
+    background-image: url(https://media.istockphoto.com/photos/extra-wide-evening-panorama-of-business-miami-skyline-picture-id1058108750?b=1&k=20&m=1058108750&s=170667a&w=0&h=YzDzPZd4CXZe1-G_cjL2WIylKsvK2JjgS9MGdQ2uy-Q=);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* .box-2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+} */
+
+.box-2 .box-3{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+.distance{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    /* margin-top: 50px;
+    margin-left: 250px; */
+    /* margin-right: 100px; */
+    /* margin-bottom: 100px; */
+    /* margin: 100px 200px 300px;  */
+    margin: 30px auto;
+    /* top, right, bottom, left */
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; */
+    padding: 20px;
+    /* overflow-y:scroll; */
+    /* border-width: 10px;
+    border-style:solid;
+    border-color: rgb(3, 146, 175); */
+    /* border: 5px solid blue; */
+    /* border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid blue; */
+    border: 5px solid black;
+    border-left: none;
+    /* border-radius: 50%; */
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    /* clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); */
+    /* clip-path: polygon(94% 94%, 75% 0%, 10% 40%, 75% 100%, 25% 100%, 40% 9%); */
+    outline: 5px dotted chartreuse;
+    outline-offset: 15px;
+}
+
+.wrapper{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+}
+
+.block{
+    width: 350px;
+    height: 50px;
+    background-color: darkcyan;
+    margin-top: 20px;
+}
+
+.block-p{
+    display: block;
+    width: 200px;
+    padding-top: 15px;
+}
+
+
+/* inline elementler margin ve paddingin top ve bottom deyerlerini qebul etmir
+    inline elementlerin width ve height deyerlerini teyin etmek olmur
+*/
+.inline{
+    display: inline-block;
+    /* display: inline; */
+    width: 200px;
+    /* height: 0px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+.items .item{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    border: 1px solid black;
+    padding: 5px 15px 5px 10px;
+    margin: 0 10px;
+    border-radius: 20px;
+    color: white;
+}
