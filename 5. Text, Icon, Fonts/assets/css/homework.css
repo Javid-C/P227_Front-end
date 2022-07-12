@@ -1,0 +1,31 @@
+.margin{
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    background-color: orange;
+}
+
+.margin .border{
+    width: 90%;
+    height: 90%;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+.margin .border .padding{
+    width: 90%;
+    height: 90%;
+    background-color: greenyellow;
+    margin: 0 auto;
+}
+
+.margin .border .padding .content{
+    width: 90%;
+    height: 90%;
+    background-color: aqua;
+    margin: 0 auto;
+    background-image: url(../images/nature-photo.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center ;
+}

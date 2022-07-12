@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(203, 203, 203);
+}
+
+header .image-title img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+header .image-title{
+    width: 500px;
+    margin: 0 auto;
+}
+
+header .image-title .title{
+    width: 270px;
+}
+
+header .image-title .title{
+    display: inline-block;
+}
+
+main #article .desc{
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+main #article .desc p a{
+    color: blueviolet;
+}
+
+main #article .desc button{
+    margin: 40px auto 0 auto;
+    display: block;
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 10px;
+    background-color: chocolate;
+    color: white;
+}
+
+/* Text css */
+
+.text{
+    /* text-align: right; */
+    /* text-align-last: center ; */
+    font-size: 22px;
+    text-decoration-line: none;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px;
+
+    text-transform: none;
+    /* text-indent: 120px; */
+    /* letter-spacing: 5px; */
+    /* line-height: 30px;
+    word-spacing: 5px; */
+    text-align: justify;
+}
+
+.box{
+    margin-top: 30px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+.box p{
+    white-space: pre-wrap;
+}
+
+
+.shadow{
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+    margin: 0 auto;
+    box-shadow: 87px 70px 262px 133px rgba(199,39,39,0.75);
+}
+
+
+.text-shadow{
+    margin-top: 30px;
+    text-shadow: 2px 2px 0px red;
+}
+
+
+.icon{
+    color: red;
+    font-size: 80px;
+}
+
+:root{
+    font-size: 40%;
+}
+
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+
+    font-size: 1rem;
+}
+
+.another{
+    font-size: 10%;
+}
+
+.another p {
+    font-size: 3rem;
+}
+
+.roboto{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.margin{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-left:10px ;
+    
+}
+
+
+
