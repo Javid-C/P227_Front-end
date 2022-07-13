@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+header{
+    width: 50%;
+    background-color: rgb(207, 207, 207);
+}
+
+header .image-info .image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.main-wrapper{
+    width: 50%;
+    padding: 40px 0;
+    background-color: rgb(207, 207, 207);
+}
+
+.main-wrapper .left-section{
+    width: 49%;
+    display: inline-block;
+}
+
+.main-wrapper .right-section{
+    display: inline-block;
+    width: 49%;
+}
+
+.main-wrapper .section{
+    border-left: 3px dashed gray;
+    padding-left: 15px;
+}
+
+.icon{
+    font-size: 14px;
+    color: red;
+}
+
+@font-face {
+    font-family: Javid;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
