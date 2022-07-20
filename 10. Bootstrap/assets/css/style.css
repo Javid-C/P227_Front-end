@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.solar-system{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    border-radius: 50%;
+    position: absolute;
+    animation-timing-function: linear;
+}
+
+.sun{
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to right, #f2994a, #ffe28b);
+    animation-name: sun;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.mercury{
+    width: 75px;
+    height: 75px;
+    background: linear-gradient(to right, #564c43, #518290);
+    animation-name: mercury;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+.venus{
+    width: 115px;
+    height: 115px;
+    background: linear-gradient(to right, #468168, #518290);
+    animation-name: venus;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.earth{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to right, #037d01, #005b98);
+    animation-name: earth;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes sun {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes mercury {
+    from{
+        transform: rotateZ(0deg) translateX(190px);
+    }
+    to{
+        transform: rotateZ(360deg) translateX(190px);
+    }
+}
+
+@keyframes venus {
+    from{
+        transform: rotateZ(0deg) translateX(300px);
+    }
+    to{
+        transform: rotateZ(360deg) translateX(300px);
+    }
+}
+@keyframes earth {
+    from{
+        transform: rotateZ(0deg) translateX(420px);
+    }
+    to{
+        transform: rotateZ(360deg) translateX(420px);
+    }
+}
+
+/* 
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transform: rotateZ(45deg) translateX(200px);
+    transform-origin: center;
+} */
