@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#Education .education-programs .title h1{
+    line-height: 23px;
+}
+
+#Education .education-programs .desc .more a{
+    text-decoration: none;
+    color: black;
+}
+
+#Education .education-programs .desc .more a i{
+    transition: .3s;
+}
+
+#Education .education-programs .desc .more:hover i{
+    transform: translateX(20px);
+    color: orange;
+}
+
+#Education .education-programs .title span:first-child{
+    font-weight: 800;
+    font-size: 65px;
+}
+
+.item{
+    height: 200px;
+}
+
+#Education .education-card{
+    transition: .3s;
+}
+
+#Education .education-card:nth-child(odd):hover{
+    transform: scale(1.1);
+    background-color: orange;
+    color: white;
+    border: none !important;
+}
+
+#Education .education-card:nth-child(even):hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 118, 165);
+    color: white;
+    border: none !important;
+}
+
+
+#Education .education-card:hover svg path{
+    stroke: white;
+}

@@ -1,0 +1,8 @@
+
+
+@mixin model-view($bgcolor,$brcolor,$brpx){
+    width: 200px;
+    height: 200px;
+    border: $brpx solid $brcolor;
+    background-color: $bgcolor;
+}

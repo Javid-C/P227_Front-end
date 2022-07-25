@@ -1,0 +1,71 @@
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: $primary_color;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: $font-size / 2.4;
+    &:hover{
+        .insideBox{
+            background-color: black;
+        }
+    }
+    > .insideBox{
+        width: 50px;
+        height: 50px;
+        background-color: $secondary_color;
+        .thirdBox{
+            width: 25px;
+            height: 25px;
+            background-color: greenyellow;
+        }
+        // [class*=third]{
+        //     width: 25px;
+        //         height: 25px;
+        //         background-color: greenyellow;
+        // }
+    }
+    
+}
+
+
+
+.container{
+    .row{
+        .error-model{
+            // @extend %model-view !optional;
+            @include model-view(red,rgb(255, 86, 86),3px);
+        }
+        .success-model{
+            // @extend %model-view !optional;
+            @include model-view(#00ff00,rgb(87, 255, 87),10px);
+        }
+        .warning-model{
+            // @extend %model-view !optional;
+            @include model-view($brpx:1px,$bgcolor:orange,$brcolor:rgb(255, 216, 87));
+        }
+    }
+}
+
+
+.function{
+    @include model-view(red,black,3px);
+    color: white;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // font-size: pow(1,5);
+    padding: resize(1,2,30px);
+}
+
+
+.nav{
+    color: red;
+    &_nav-links{
+        color: blue;
+        &_title{
+            color: greenyellow;
+        }
+    }
+}
