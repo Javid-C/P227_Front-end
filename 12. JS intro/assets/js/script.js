@@ -47,7 +47,7 @@ let number2 = "5";
 // console.log(number == number2);
 // console.log(typeof typeof bool);
 // console.log(typeof typeof nullable);
-// console.log(typeof typeof undefinedd);
+console.log(typeof undefinedd);
 // console.log(typeof typeof number);
 // console.log(typeof typeof bignint);
 // console.log(typeof typeof string);
