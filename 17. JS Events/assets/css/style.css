@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.color-section{
+    height: 300px;
+    border: 2px solid black;
+    width: 22%;
+}
+
+body{
+    height: 300vh;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 2px solid black;
+}
