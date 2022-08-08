@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header nav ul{
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header nav .menuBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .menu{
+    /* width: 300px; */
+    height: 0vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: .7s;
+    /* transform: translateX(100%); */
+    /* transition-timing-function: cubic-bezier(.13,1.9,.42,.66); */
+    /* Rashadin arzusu */
+    width: 0px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+header nav .active{
+    transform: translateX(0%);
+}
+
+
+/* Drag and Drop */
+
+.container .row h1{
+    text-align: center;
+}
+
+
+.to-do-list,.in-progress{
+    height: 600px;
+    border: 2px solid black;
+}
+
+
+#circle{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
