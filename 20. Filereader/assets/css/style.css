@@ -1,0 +1,23 @@
+.row{
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.circle{
+    height: 210px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+
+.dropZone{
+    height: 410px;
+    /* border-radius: 50%; */
+    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}

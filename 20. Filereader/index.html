@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div draggable="true" class="col-lg-2 circle custom" data-red="0" data-green="0" data-blue="0">
+
+            </div>
+            <div draggable="true" style="background-color:red" class="col-lg-2 circle" data-red="255" data-green="0"
+                data-blue="0">
+
+            </div>
+            <div draggable="true" style="background-color:rgb(0, 255, 0)" class="col-lg-2 circle" data-red="0"
+                data-green="255" data-blue="0">
+
+            </div>
+            <div draggable="true" style="background-color:blue" class="col-lg-2 circle" data-red="0" data-green="0"
+                data-blue="255">
+
+            </div>
+
+            <div class="col-lg-4 dropZone" data-red="255" data-green="255" data-blue="255">
+
+            </div>
+        </div>
+        <div class="customDetails">
+            <div class="red">
+                <label for="">Red</label>
+                <input type="text" class="form-control" id="red">
+            </div>
+            <div class="green">
+                <label for="">Green</label>
+                <input type="text" class="form-control" id="green">
+            </div>
+            <div class="blue">
+                <label for="">Blue</label>
+                <input type="text" class="form-control" id="blue">
+            </div>
+            <div class="mt-2 submit">
+                <button type="button" class="btn btn-outline-success" id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
